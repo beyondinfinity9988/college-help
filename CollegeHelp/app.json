@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "collegeHelp",
+    "slug": "collegeHelp",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/collegehelp_icon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_fg.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+    "READ_EXTERNAL_STORAGE",
+    "WRITE_EXTERNAL_STORAGE"
+    ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/collegehelp_icon.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.prathamtechlab.collegeHelp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "163f8e72-c63f-4b54-8668-5ad2f376c32d"
+      }
+    }
+  }
+}
